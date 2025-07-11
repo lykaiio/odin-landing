@@ -6,7 +6,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0px 50px;
+    padding: 0px 75px;
     align-items: center;
 }
 
@@ -14,7 +14,7 @@ ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    gap: 8px;
+    gap: 25px;
 
 }
 
@@ -34,4 +34,42 @@ a {
 
 .hero {
     background-color: #1F2937;
+}
+
+.hero-body {
+    display: flex;
+    padding: 50px 75px;
+    gap: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-family: Arial;
+    font-weight: 900;
+}
+
+p {
+    font-size: 18px;
+    font-family: Arial;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 8px 25px;
+}
+
+.body-right {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 120%;
 }
