@@ -1,9 +1,37 @@
-p {
-    font-family: Roboto;
-    color: #F9FAF8;
+body {
+    padding: 0px;
+    margin: 0px;
 }
 
-.Header-container {
+.header {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 50px;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #1F2937;
 }
